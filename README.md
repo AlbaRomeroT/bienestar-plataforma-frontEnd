@@ -25,15 +25,15 @@ npm install yarn –g
 ## Comandos de ejecución:
 
 ### Locales
-**npm run androidlocal.app** para Android (guardar apk en folder apps, si no existe crear dicha carpeta, en la raíz del repositorio)
-**npm run ioslocal.app** para iOS (generar .zip de la App y guardar dicho archivo en la misma carpeta apps) 
+- **npm run androidlocal.app** para Android (guardar apk en folder apps, si no existe crear dicha carpeta, en la raíz del repositorio)
+- **npm run ioslocal.app** para iOS (generar .zip de la App y guardar dicho archivo en la misma carpeta apps) 
 
 **NOTA: el servidor appium debe estar corriendo de manera local por el puerto 4723 
 
 ### Máquina EC2: 
 
-**npm run androidlocal.app para Android** (guardar apk en folder apps, si no existe crear dicha carpeta, en la raíz del repositorio) 
-**npm run ioslocal.app para iOS** (generar .zip de la App y guardar dicho archivo en la misma carpeta apps) 
+- **npm run androidlocal.app para Android** (guardar apk en folder apps, si no existe crear dicha carpeta, en la raíz del repositorio) 
+- **npm run ioslocal.app para iOS** (generar .zip de la App y guardar dicho archivo en la misma carpeta apps) 
 
 **NOTA: La máquina EC2 debe estar ejecutándose correctamente, esta al iniciar descarga y guarda en la ruta del docker el apk del último despliegue en el ambiente QA** 
 
