@@ -39,16 +39,16 @@ npm install yarn –g
 
 ## Archivos de configuración: 
 - Configuración global para Cucumber, Allure y conexión con Appium: wdio.shared.conf.js 
- - En este archivo se configura la conexión a la IP del servidor Appium de manera remota en la EC2 (IP: http://54.237.140.118:4723) 
- - Se definen las funciones Hooks necesarias para la correcta ejecución de las pruebas 
+  - En este archivo se configura la conexión a la IP del servidor Appium de manera remota en la EC2 (IP: http://54.237.140.118:4723) 
+  - Se definen las funciones Hooks necesarias para la correcta ejecución de las pruebas 
 - Para la configuración de las capabilities para emuladores Android: wdio.android.app.conf.js 
- - Configurar el nombre del dispositivo, la versión del SO y el nombre del AVD y tener el parámetro autoWebview en true y definir la ruta dónde se debe encontrar el apk para su instalación 
+  - Configurar el nombre del dispositivo, la versión del SO y el nombre del AVD y tener el parámetro autoWebview en true y definir la ruta dónde se debe encontrar el apk para su instalación 
 - Para la configuración de las capabilities para emuladores iOS: wdio.ios.app.conf.js 
- -Configurar el nombre del dispositivo, la versión del SO y tener el parámetro safariLogAllCommunication en true y definir la ruta dónde se debe encontrar el .zip de la App para su instalación 
+  -Configurar el nombre del dispositivo, la versión del SO y tener el parámetro safariLogAllCommunication en true y definir la ruta dónde se debe encontrar el .zip de la App para su instalación 
 - Repositorio: Rama principal configurada para ejecución en el pipeline: testing 
 - Reportes: Se utiliza el framework Allure para reportar los resultados de las pruebas ejecutadas en base a los datos generados y almacenados en la carpeta test-report 
- - Se deben ejecutar los siguientes comandos: 
-  - npm run report:generate para generación de los archivos bases 
-  - npm run report:open abre en una pestaña del explorador los resultados para ser consultados 
+  - Se deben ejecutar los siguientes comandos: 
+    - npm run report:generate para generación de los archivos bases 
+    - npm run report:open abre en una pestaña del explorador los resultados para ser consultados 
 - Cucumber: Manejo de features por Épica para cada flujo automatizado y manejo de tags para ejecución seleccionada de cada flujo 
 En Android para ejecuciones locales se debe configurar el emulador con el AVD Manager 
