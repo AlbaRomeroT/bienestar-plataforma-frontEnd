@@ -28,7 +28,7 @@ npm install yarn –g
 - **npm run androidlocal.app** para Android (guardar apk en folder apps, si no existe crear dicha carpeta, en la raíz del repositorio)
 - **npm run ioslocal.app** para iOS (generar .zip de la App y guardar dicho archivo en la misma carpeta apps) 
 
-**NOTA: el servidor appium debe estar corriendo de manera local por el puerto 4723 
+**NOTA: el servidor appium debe estar corriendo de manera local por el puerto 4723** 
 
 ### Máquina EC2: 
 
