@@ -1,4 +1,4 @@
-# bienestar-plataforma-frontEnd
+# Bienestar-plataforma-frontEnd
 
 Proyecto de pruebas automatizadas(FrontEnd) para Bienestar
 
