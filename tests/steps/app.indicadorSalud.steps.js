@@ -11,7 +11,7 @@ Then(/^Ver opcion Bienestar$/, () => {
 });
 
 When(/^Dar clic en Bienestar$/, () => {
-    DashboardScreen.opcionBienestar.click();
+    DashboardScreen.botonBienestar.click();
     browser.pause(5000)
 });
 
