@@ -5,7 +5,7 @@ import IndicatorSaludScreen from '../screenobjects/IndicatorScreen/indicatorSalu
 
 Then(/^Ver opcion Bienestar$/, () => {
     console.log("Ver opción Bienestar");
-    browser.pause(1000)
+    browser.pause(3000)
     expect(DashboardScreen.opcionBienestar.isDisplayed()).to.equal(true);
  
 });
