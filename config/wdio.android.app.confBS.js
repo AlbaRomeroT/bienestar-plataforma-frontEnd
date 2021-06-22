@@ -1,5 +1,6 @@
 const { join } = require('path');
 const { config } = require('./wdio.shared.conf');
+const idApk =  require('../uidApk.json');
 
 exports.config = {
     updateJob: false,
@@ -30,7 +31,7 @@ config.capabilities = [{
     name: 'first_test',
     device: 'Samsung Galaxy S21',
     os_version: "11.0",
-    app : 'bs://9a780f291fc7d64eb4c567d6421e12be261f0140',//'bs://f7a94c6fa00ebf1025294061e4dc27c601cbb1f4',
+    app : idApk.app_url,//'bs://f7a94c6fa00ebf1025294061e4dc27c601cbb1f4',
     'browserstack.debug': true
 },
 ];
