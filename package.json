@@ -18,7 +18,8 @@
     "android.appBS": "./node_modules/.bin/wdio ./config/wdio.android.app.confBS.js",
     "ios.app": "./node_modules/.bin/wdio ./config/wdio.ios.app.conf.js",
     "ioslocal.app": "./node_modules/.bin/wdio ./config/wdio.iosLocal.app.conf.js",
-    "ios.sauce.rdc.app": "./node_modules/.bin/wdio ./config/saucelabs/wdio.ios.rdc.app.conf.js"
+    "ios.sauce.rdc.app": "./node_modules/.bin/wdio ./config/saucelabs/wdio.ios.rdc.app.conf.js",
+    "uploadApk": "curl -u 'elkinidarraga_2c4N8T:WsfyFPvqps9YC4Ax2SVT' -X POST 'https://api-cloud.browserstack.com/app-automate/upload' -F 'file=@./bolivar-conmigo-V185.apk' > uidApk.json "
   },
   "repository": {
     "type": "git",

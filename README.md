@@ -19,7 +19,10 @@ Instalar Android Studio y/o Xcode para ejecución sobre emuladores
 Instalación de yarn:
 ```bash
 npm install yarn –g 
-
+```
+Instalación de curl:
+```bash
+brew install curl
 ```
 
 ## Comandos de ejecución:
@@ -52,3 +55,7 @@ npm install yarn –g
     - npm run report:open abre en una pestaña del explorador los resultados para ser consultados 
 - **Cucumber**: Manejo de features por Épica para cada flujo automatizado y manejo de tags para ejecución seleccionada de cada flujo 
 En Android para ejecuciones locales se debe configurar el emulador con el AVD Manager 
+
+- **Comando de subida de apk**:
+
+curl -u 'elkinidarraga_2c4N8T:WsfyFPvqps9YC4Ax2SVT' -X POST 'https://api-cloud.browserstack.com/app-automate/upload' -F 'file=@/Users/dreamcode/Downloads/bolivar-conmigo-V185.apk' > uidApk.json  
