@@ -25,7 +25,7 @@
     "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/jelpit-conjuntos-app-test"
   },
   "dependencies": {
-    "@babel/cli": "^7.10.1",
+    "@babel/cli": "^7.14.5",
     "@babel/core": "^7.10.2",
     "@babel/node": "^7.10.1",
     "@babel/polyfill": "^7.10.1",
@@ -41,8 +41,8 @@
     "@wdio/spec-reporter": "^6.1.14",
     "@wdio/sync": "^6.1.14",
     "allure-commandline": "^2.13.0",
-    "appium": "^1.17.1",
-    "appium-chromedriver": "^4.24.2",
+    "appium": "^1.21.0",
+    "appium-chromedriver": "^4.27.2",
     "chai": "^4.2.0",
     "cucumber": "^6.0.5",
     "debug": "^4.1.1",
@@ -53,7 +53,7 @@
     "eslint-plugin-import": "^2.21.1",
     "fibers": "^5.0.0",
     "husky": "^4.2.5",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.3",
     "prettier": "^2.0.5",
     "webdriverio": "^6.1.17"
   },
