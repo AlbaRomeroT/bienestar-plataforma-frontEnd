@@ -30,7 +30,7 @@ config.capabilities = [{
     name: 'first_test',
     device: 'Samsung Galaxy S21',
     os_version: "11.0",
-    app : 'bs://de7808c9d8fab4dfcdfd4260a22be734a70246b8',//'bs://f7a94c6fa00ebf1025294061e4dc27c601cbb1f4',
+    app : 'bs://9a780f291fc7d64eb4c567d6421e12be261f0140',//'bs://f7a94c6fa00ebf1025294061e4dc27c601cbb1f4',
     'browserstack.debug': true
 },
 ];

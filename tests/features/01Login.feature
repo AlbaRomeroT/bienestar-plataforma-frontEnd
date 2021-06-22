@@ -52,7 +52,9 @@ Feature: Login Usuario Bienestar
     When Ingresar correo electronico '<Email>' del usuario
     And Ingresar password '<Password>' del usuario
     And Dar clic boton iniciar sesion
-    Then Inicio Dashboard Bienestar
+    Then Ver opcion Bienestar
+    And Dar clic en Bienestar
+    And Inicio Dashboard Bienestar
         
         Examples:
             | Email                        | Password        | 
