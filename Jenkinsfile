@@ -7,7 +7,7 @@ pipeline {
  
         stage('Preparation') { // for display purposes
         steps {
-            git branch: 'Dreamcode', url: 'https://github.com/segurosbolivar/bol-automation-bienestar-mobile-test.git'
+            git branch: 'develop', url: 'https://github.com/AlbaRomeroT/bienestar-plataforma-frontEnd.git'
         }
  
     }

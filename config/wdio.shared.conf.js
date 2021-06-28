@@ -1,7 +1,7 @@
 exports.config = {
     server: 'hub-cloud.browserstack.com',
-    user: process.env.BROWSERSTACK_USERNAME || 'elkinidarraga_2c4N8T',//'alba_AV6S8F',
-    key: process.env.BROWSERSTACK_ACCESS_KEY || 'WsfyFPvqps9YC4Ax2SVT',//'1KT7LVd4ibRrPAAjvAYu',
+    user: process.env.BROWSERSTACK_USERNAME ,//'elkinidarraga_2c4N8T',
+    key: process.env.BROWSERSTACK_ACCESS_KEY ,//'WsfyFPvqps9YC4Ax2SVT',
     // ====================
     // Runner and framework
     // Configuration
