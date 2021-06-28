@@ -26,6 +26,8 @@ config.cucumberOpts.require = ['./tests/steps/**/app*.steps.js'];
 // For all capabilities please check
 // http://appium.io/docs/en/writing-running-appium/caps/#general-capabilities
 config.capabilities = [{
+    'appium:noReset': true,
+    'appium:fullReset': false,
     project: "First Webdriverio Android Project",
     build: 'Webdriverio Android',
     name: 'first_test',
