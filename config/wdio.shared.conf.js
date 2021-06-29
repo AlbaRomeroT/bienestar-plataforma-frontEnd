@@ -82,6 +82,6 @@ exports.config = {
     },
 
     afterScenario: function (uri, feature, scenario, sourceLocation, context) {
-        driver.reset()
+       // driver.reset()
     },
 };
