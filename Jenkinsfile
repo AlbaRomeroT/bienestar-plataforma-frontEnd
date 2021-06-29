@@ -24,7 +24,7 @@ pipeline {
         }
         stage('test') {
              steps {
-                  sh 'npm run android.appBS --verbose'
+                  sh 'npm run android.appBS'
              }
             
         }
