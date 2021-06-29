@@ -24,6 +24,8 @@ pipeline {
         }
         stage('test') {
              steps {
+                 echo BROWSERSTACK_ACCESS_KEY 
+                 echo BROWSERSTACK_USERNAME
                   sh 'npm run android.appBS'
              }
             
