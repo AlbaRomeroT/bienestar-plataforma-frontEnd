@@ -24,7 +24,6 @@ pipeline {
         }
         stage('test') {
              steps {
-                  sh 'npm run uploadApk'
                   sh 'npm run android.appBS'
              }
             
