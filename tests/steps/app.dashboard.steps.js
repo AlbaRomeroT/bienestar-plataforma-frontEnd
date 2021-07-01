@@ -1,6 +1,6 @@
 import { When, Then, Given } from 'cucumber';
 import { expect } from 'chai';
-import DashboardScreen from '../screenobjects/DashboardScreen/Dashboard.screen.js'
+import DashboardScreen from '../screenobjects/DashboardScreen/dashboard.screen.js'
 
 Then(/^Ver Dashboarding Bienestar$/, () => {
     console.log("Ver Dashboarding Bienestar");

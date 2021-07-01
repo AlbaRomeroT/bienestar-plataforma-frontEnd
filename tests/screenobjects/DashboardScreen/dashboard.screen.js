@@ -37,7 +37,7 @@ class DashboardScreen extends AppScreen {
         return $(SELECTORS.LINK_BIENESTAR)
     }
 
-    get botonBienestar() {
+    get Dashboard.screen.j() {
         return $(SELECTORS.BUTTON_BIENESTAR)
     }
 
