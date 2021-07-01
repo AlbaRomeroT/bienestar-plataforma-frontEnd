@@ -1,7 +1,7 @@
 import { When, Then, Given } from 'cucumber';
 import { expect } from 'chai';
 import LoginScreen from '../screenobjects/LoginScreen/login.screen';
-import DashboardScreen from '../screenobjects/DashboardScreen/Dashboard.screen';
+import DashboardScreen from '../screenobjects/DashboardScreen/dashboard.screen.js';
 
 
 Given(/^Usuario entra al home Bienestar$/, () => {
