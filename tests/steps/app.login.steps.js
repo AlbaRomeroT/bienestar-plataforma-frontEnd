@@ -15,6 +15,7 @@ Then(/^Muestra mensaje de errorLogin '(.+)'$/, (error) => {
     browser.pause(5000)
     expect(LoginScreen.loginError.isDisplayed()).to.equal(true);
     expect(LoginScreen.loginError.getText()).to.equal(error);
+    driver.reset();    
 });
 
 
@@ -30,6 +31,15 @@ When(/^Ingresar password '(.+)' del usuario$/, (password) => {
     LoginScreen.inputPassword.setValue(password);
     driver.hideKeyboard();
 });
+
+When(/^Clic en boton iniciar sesion$/, () => {
+    console.log("Solo ingresa sin registrar datos")
+    browser.pause(2000)
+    console.log("Clic en inicio sesion")
+    LoginScreen.ingresarButton.click();
+    browser.pause(5000)
+});
+
 
 When(/^Dar clic boton iniciar sesion$/, () => {
     console.log("Boton inicio sesion")

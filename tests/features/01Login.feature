@@ -39,7 +39,7 @@ Feature: Login Usuario Bienestar
     @Smoke @Login @validateSoloFormulario
     Scenario Outline: Validar solo formulario
     Given Usuario entra al home Bienestar
-    When Dar clic boton iniciar sesion
+    When Clic en boton iniciar sesion
     Then Muestra mensaje de errorLogin '<error>'
         
         Examples:
