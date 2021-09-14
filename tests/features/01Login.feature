@@ -45,17 +45,3 @@ Feature: Login Usuario Bienestar
         Examples:
             | error|
             | El campo correo y contraseña son obligatorios|
-
-    @Smoke @Login @validateLogin
-    Scenario Outline: Login usuario Bienestar
-    Given Usuario entra al home Bienestar
-    When Ingresar correo electronico '<Email>' del usuario
-    And Ingresar password '<Password>' del usuario
-    And Dar clic boton iniciar sesion
-    Then Dar clic en Bienestar
-    And Inicio Dashboard Bienestar
-        
-        Examples:
-            | Email                        | Password        | 
-            | teresa.gutierrez@yopmail.com | 2021pruebasatm  |
- 
