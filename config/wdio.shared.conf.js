@@ -43,7 +43,7 @@ exports.config = {
         source: true,
         profile: [],
         strict: false,
-        tagExpression: '@validateLogin',
+        tagExpression: '@Login',
         tagsInTitle: false,
         //tags: [''],
         timeout: 90000,
